@@ -13,7 +13,7 @@ steps:
   - task: AzureRmWebAppDeployment@3
     displayName: "Function App Deploy: Super Simple Functions App"
     inputs:
-      azureSubscription: "azure-rm"
+      azureSubscription: "Dean Hotmail ( 9b301261-f640-4aee-bb8d-ad9fefadeff2 )"
       appType: functionapp
       WebAppName: "super-simple-functions"
       Package: "$(System.DefaultWorkingDirectory)/$(Build.BuildId).zip"
