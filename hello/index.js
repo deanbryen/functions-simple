@@ -1,4 +1,4 @@
-module.exports = async function(context, req) {
+module.exports = function(context, req) {
   context.log("The hello function has been triggered!");
 
   context.res = {
@@ -6,4 +6,5 @@ module.exports = async function(context, req) {
     body:
       "Welcome to this super simple function!"
   };
+  context.done();
 };
